@@ -30,7 +30,7 @@ export default function AutoencoderApp() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/reconstruct",
+        "https://autoencoderkiranbackend.onrender.com/reconstruct",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
@@ -109,7 +109,7 @@ export default function AutoencoderApp() {
           </div>
           {/* GitHub Link */}
           <a
-            href="https://github.com/your-repo/autoencoder-app"
+            href="https://github.com/kirankumarkanathala-stack/autoencoderkiranfrontend"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 flex items-center gap-2 bg-white text-purple-700 px-4 py-2 rounded-full hover:bg-gray-100 transition-colors"
