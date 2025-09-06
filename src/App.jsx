@@ -53,6 +53,7 @@ export default function AutoencoderApp() {
       <h1 className="text-4xl font-extrabold mb-10 text-gray-800 text-center">
         Autoencoder Image Reconstruction
       </h1>
+
       <div className="grid grid-cols-3 gap-8 w-full max-w-7xl">
         {/* Drag & Drop Zone */}
         <div
@@ -138,6 +139,31 @@ export default function AutoencoderApp() {
           )}
         </div>
       </div>
+
+      {/* Project Description at the Bottom */}
+      <div className="max-w-4xl bg-white rounded-3xl shadow-xl p-8 mt-12 mb-12">
+        <h1 className="text-3xl font-extrabold text-gray-800 mb-4">
+          Image Autoencoder Demo
+        </h1>
+        <p className="text-gray-700 mb-2">
+          This project showcases an image autoencoder trained to compress and
+          reconstruct images. Upload an image to see how the model encodes it
+          into a compact latent representation and then reconstructs it.
+        </p>
+        <p className="text-gray-700 mb-2">
+          While the reconstructed images may appear slightly blurry, this
+          project demonstrates key concepts in unsupervised learning,
+          dimensionality reduction, and neural network design. Users can compare
+          the original and reconstructed images side by side, experiment with
+          different latent dimensions, and explore how architecture choices
+          affect reconstruction quality.
+        </p>
+        <p className="text-gray-700">
+          The project highlights hands-on experience with deep learning, model
+          evaluation, and building interactive web-based demos.
+        </p>
+      </div>
+
       <footer className="mt-12 text-center text-gray-500 text-sm">
         © {new Date().getFullYear()} Kiran Kumar Kanathala. Made with ❤️ using
         React.
