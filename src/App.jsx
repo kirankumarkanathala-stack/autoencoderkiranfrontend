@@ -30,7 +30,7 @@ export default function AutoencoderApp() {
 
     try {
       const response = await axios.post(
-        "https://autoencoderkiranbackend.onrender.com/reconstruct",
+        "https://kiran6969-autoencoderkiranbackend1.hf.space/reconstruct",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
