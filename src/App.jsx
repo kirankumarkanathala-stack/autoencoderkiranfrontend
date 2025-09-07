@@ -149,27 +149,27 @@ export default function AutoencoderApp() {
           Image Autoencoder Demo
         </h1>
         <p className="text-gray-700 mb-2">
-          This project showcases an image autoencoder trained to compress and
-          reconstruct images. Upload an image to see how the model encodes it
-          into a compact latent representation and then reconstructs it.
+          This project showcases an <strong>image autoencoder</strong> trained to compress 
+          and reconstruct images. Upload an image to see how the model encodes it into a 
+          compact <strong>latent representation</strong> and then reconstructs it.
         </p>
         <p className="text-gray-700 mb-2">
-          While the reconstructed images may appear slightly blurry, the project
-          illustrates concepts in unsupervised learning, dimensionality reduction,
-          and neural network design. Users can compare the original and reconstructed
-          images side by side, experiment with different latent dimensions, and explore
-          how architecture choices affect reconstruction quality.
+          The reconstructed outputs illustrate key concepts in unsupervised learning, 
+          dimensionality reduction, and neural network design. 
+          Users can compare the original and reconstructed images, experiment with different 
+          latent dimensions, and explore how architectural choices affect reconstruction quality.
         </p>
         <p className="text-gray-700 mb-2">
-          The backend is deployed on <strong>Hugging Face Spaces</strong> using a
-          <strong> Dockerfile</strong> for containerization, while the frontend is
-          hosted on <strong>Vercel</strong>. This setup allows for a fully interactive
-          web interface connected to a scalable ML backend.
+          The backend has been fully containerized, demonstrating expertise in 
+          building scalable and maintainable ML solutions. This highlights 
+          proficiency in model deployment, inference optimization, 
+          and integrating ML models with interactive applications.
         </p>
         <p className="text-gray-700">
-          The project integrates deep learning with cloud-based deployment, providing
-          hands-on experience with model evaluation, containerized environments, and
-          interactive web applications.
+          Overall, this project reflects end-to-end machine learning development, 
+          combining model design, latent space exploration, 
+          and production-ready engineering practices, showcasing the ability to 
+          deliver robust and interactive AI solutions.
         </p>
       </div>
 
