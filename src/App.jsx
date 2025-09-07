@@ -117,6 +117,9 @@ export default function AutoencoderApp() {
             <Github className="w-5 h-5" />
             View Source on GitHub
           </a>
+          <div className="mt-4 text-sm text-purple-100 italic text-center hover:text-white cursor-pointer transition-colors">
+            Backend source code available upon request
+          </div>
         </div>
 
         {/* Reconstructed Image */}
