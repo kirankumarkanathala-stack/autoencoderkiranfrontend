@@ -151,18 +151,25 @@ export default function AutoencoderApp() {
           into a compact latent representation and then reconstructs it.
         </p>
         <p className="text-gray-700 mb-2">
-          While the reconstructed images may appear slightly blurry, this
-          project demonstrates key concepts in unsupervised learning,
-          dimensionality reduction, and neural network design. Users can compare
-          the original and reconstructed images side by side, experiment with
-          different latent dimensions, and explore how architecture choices
-          affect reconstruction quality.
+          While the reconstructed images may appear slightly blurry, the project
+          illustrates concepts in unsupervised learning, dimensionality reduction,
+          and neural network design. Users can compare the original and reconstructed
+          images side by side, experiment with different latent dimensions, and explore
+          how architecture choices affect reconstruction quality.
+        </p>
+        <p className="text-gray-700 mb-2">
+          The backend is deployed on <strong>Hugging Face Spaces</strong> using a
+          <strong> Dockerfile</strong> for containerization, while the frontend is
+          hosted on <strong>Vercel</strong>. This setup allows for a fully interactive
+          web interface connected to a scalable ML backend.
         </p>
         <p className="text-gray-700">
-          The project highlights hands-on experience with deep learning, model
-          evaluation, and building interactive web-based demos.
+          The project integrates deep learning with cloud-based deployment, providing
+          hands-on experience with model evaluation, containerized environments, and
+          interactive web applications.
         </p>
       </div>
+
 
       <footer className="mt-12 text-center text-gray-500 text-sm">
         © {new Date().getFullYear()} Kiran Kumar Kanathala. Made with ❤️ using
